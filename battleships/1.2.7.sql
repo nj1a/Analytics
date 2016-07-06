@@ -5,4 +5,5 @@ where class in
     from
         (select class, max(numguns)
         from classes
-        group by bore));
+        group by bore)
+    );

@@ -1,7 +1,7 @@
 delete from classes
 where class in (
     select class
-    from classes natural join ships
+    from ships
     group by class
-    having count(ships.class) < 3
+    having count(class) < 3
 );
