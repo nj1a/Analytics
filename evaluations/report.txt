@@ -1,0 +1,13 @@
+1. More upper level courses receive a high (>3.5) evaluation score.
+2. More male instructors receive a high (>3.5) evaluation score.
+3. More upper level courses have a score above average in their level group.
+4. The modes of the beauty score for each group (beauty score given by female 
+    students to female instructors, male to male, female to male, male to 
+    female) are the same.
+5. Instructors in teaching stream have the highest average score, followed by 
+    the tenure-track, and the tenured instructos have the lowest average score.
+6. The scores of the top 5 instructors with the highest average evaluation scores
+    range approximately from 4.8 to 4.7.
+7. The results are not the same as those of questions 6. Only one instructor, id
+    85, appears in both results.
+8. The instructor with these traits will probably receive a score clsoe to 4.2.
