@@ -1,3 +1,3 @@
-ALTER TABLE ships ADD CONSTRAINT check_bore CHECK (bore <= 14);
+DELETE from classes where bore > 16;
 
-DELETE from ships where bore > 14;
+ALTER TABLE classes ADD CONSTRAINT check_bore CHECK (bore <= 16);

@@ -5,21 +5,20 @@ CREATE TABLE classes(
     country text,
     numguns integer,
     bore integer,
-    displacement integer 
+    displacement integer
 );
 
 DROP TABLE IF EXISTS ships;
 CREATE TABLE ships(
-    name text,
+    name text PRIMARY KEY,
     class text,
-    launched integer,
-    PRIMARY KEY(name,class)
+    launched integer
 );
 
 DROP TABLE IF EXISTS battles;
 CREATE TABLE battles(
    name text PRIMARY KEY,
-   date_fought text 
+   date_fought text
 );
 
 DROP TABLE IF EXISTS outcomes;
@@ -78,5 +77,3 @@ INSERT INTO outcomes(ship,battle,result) VALUES ('Scharnhorst','North Cape','sun
 INSERT INTO outcomes(ship,battle,result) VALUES ('South Dakota','Guadalcanal','ok');
 INSERT INTO outcomes(ship,battle,result) VALUES ('West Virginia','Surigao Strait','ok');
 INSERT INTO outcomes(ship,battle,result) VALUES ('Yamashiro','Surigao Strait','sunk');
-
-
