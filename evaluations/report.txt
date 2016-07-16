@@ -9,5 +9,9 @@
 6. The scores of the top 5 instructors with the highest average evaluation scores
     range approximately from 4.8 to 4.7.
 7. The scores of the top 5 instructors with the highest average beauty scores
-    range approximately from 8.2 to 7.8. The results are not the same as those of questions 6. Only one instructor, id 85, appears in both results.
+    range approximately from 8.2 to 7.8. The results are not the same as those of
+    questions 6. Only one instructor, id 85, appears in both results.
 8. The instructor with these traits will probably receive a score close to 4.25.
+
+From this assignment, we learned how to output data into Excel, and practiced 
+the use of subqueries, group by, having, and aggregate functions such as avg, max.
