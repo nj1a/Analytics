@@ -1,4 +1,4 @@
-select sum(prof_eval) / count(*)
+select avg(prof_eval)
 from evaluations natural join (
     select prof_id, (
         (case when language = 'english' then 0 else 1 end) +
